@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(6, 22, 62, 0.795);
+    color: #fff;
+}
+.action-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px 0;
+}
+
+.card{
+  width: 300px;
+}
+.card h1{
+  font-size: 16px;
+}
